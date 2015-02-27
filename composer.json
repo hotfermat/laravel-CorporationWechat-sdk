@@ -1,0 +1,22 @@
+{
+    "name": "xxy/wechat",
+    "keywords": ["laravel", "weixin", "CorporationWechat"，"SDK"],
+    "license": "MIT",
+    "description": "CorporationWechat SDK for Laravel 4 微信企业号SDK",
+    "authors": [
+        {
+            "name": "xxy",
+            "email": "xxywdl@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "xxy\\Wechat\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
